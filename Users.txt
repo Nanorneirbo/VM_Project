@@ -1,0 +1,6 @@
+ronan,password,1000.10
+Kenneth,123456,1.00
+Jim,123456,8.00
+Aoife,ronan,4413.10
+Jim,lecturer,50
+Ashish,batman,50

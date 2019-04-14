@@ -1,0 +1,36 @@
+
+This is my vending machine class-
+
+Ashish - to get it to work I had to go through a few steps
+
+I used Java 11 - project needed to be uploaded as a JavaFX
+
+I had to download the JavaFX module then left Click on the project
+Select Project and change both settings to Java 11
+
+Then I went to the SDK settings and added JDK 11 to all modules.
+
+Finally I added the module-info.java class and modified it with the following settings
+requires javafx.fxml;
+    requires javafx.controls;
+    opens sample;
+
+
+My Project starts from the Login screen - Run login.java from intelliJ
+
+Logins that will work -
+
+ronan,password
+Ashish,batman
+jim, lecturer
+
+Notes * A user must have a customer account to be an admin
+* If there is an empty line at the end of any of the .dat files the system will crash.
+* to access the CLI login first then click the button
+
+I tested it rigorously so if is doesn't launch please send an email to ronanfobrien@gmail.com
+or 13050044@studentmail.ul.ie
+
+Thank you for your time and support this semester
+
+Ronan
